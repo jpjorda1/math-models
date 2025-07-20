@@ -32,11 +32,11 @@ while True:
     else:
         print("Spring constant must be non-negative.")
 
-w2 = k / m #natural freq squared (s^2)
+w2 = k / m #natural freq squared (Hz^2)
 if w2 != 0:
     L = g / w2 #natural length (m)
     print('===========')
-    print(f'The natural frequency is {np.sqrt(w2):.2f}s')
+    print(f'The natural frequency is {np.sqrt(w2):.2f}Hz')
     print(f'The natural length is {L:.2f}m')
     print('===========')
 
